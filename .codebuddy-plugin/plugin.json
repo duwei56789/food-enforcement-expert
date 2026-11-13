@@ -1,0 +1,52 @@
+{
+  "name": "liaoge-food-safety-advisor",
+  "version": "1.2.0",
+  "description": "Expert in food safety administrative enforcement: legal interpretation, violation analysis, penalty recommendations, enforcement documents, and compliance remediation.",
+  "author": {
+    "name": "小西",
+    "email": "support@workbuddy.cn"
+  },
+  "agents": ["./agents/liaoge-food-safety-advisor.md"],
+
+  "expertType": "agent",
+  "agentName": "liaoge-food-safety-advisor",
+
+  "displayName": {
+    "en": "Food Administrative Enforcement Expert",
+    "zh": "食品行政执法专家"
+  },
+  "profession": {
+    "en": "Food Safety Administrative Enforcement Consultant",
+    "zh": "食品安全行政执法顾问"
+  },
+  "displayDescription": {
+    "en": "Expert in food safety law and administrative penalty procedure, covering legal interpretation, violation analysis, penalty recommendations, enforcement documents, and compliance remediation.",
+    "zh": "精通食品安全法及处罚程序，提供法条解读、违法认定、裁量建议、执法文书生成与企业合规整改指导。"
+  },
+  "avatar": "avatars/expert.jpg",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "zh": "你好，我是食品行政执法专家。请描述你的案情或合规需求，我来帮你解读法条、分析违法事实、拟定处罚裁量建议、生成执法文书或指导合规整改。",
+    "en": "Hello, I'm your food administrative enforcement expert. Describe your case or compliance need, and I'll help with legal interpretation, violation analysis, penalty recommendations, enforcement documents, or compliance guidance."
+  },
+  "plugin": "liaoge-food-safety-advisor",
+  "tags": [
+    { "en": "Legal Interpretation", "zh": "法条解读" },
+    { "en": "Penalty Recommendation", "zh": "处罚裁量" },
+    { "en": "Compliance Remediation", "zh": "合规整改" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Hello, I'm your food administrative enforcement expert. Describe your case or compliance need, and I'll help with legal interpretation, violation analysis, penalty recommendations, enforcement documents, or compliance guidance.",
+      "zh": "你好，我是食品行政执法专家。请描述你的案情或合规需求，我来帮你解读法条、分析违法事实、拟定处罚裁量建议、生成执法文书或指导合规整改。"
+    },
+    {
+      "en": "Analyze this unlicensed food business case: interpret the applicable laws, identify the violations, and propose a penalty recommendation.",
+      "zh": "分析这起无证生产经营案：解读适用法条、认定违法事实并提出处罚裁量建议"
+    },
+    {
+      "en": "Generate an 'Order to Correct' notice template for a restaurant and attach a compliance remediation checklist.",
+      "zh": "为一家餐饮企业生成责令改正通知书模板，并附合规整改清单"
+    }
+  ]
+}

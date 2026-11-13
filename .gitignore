@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.log
+*.zip
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# 还原后生成的二进制头像不入库（仓库中只保留 .base64 文本）
+avatars/expert.jpg
